@@ -1,3 +1,12 @@
+/**
+ * Convert an integer to a Roman numeral string.
+ *
+ * @param num value in the standard LeetCode range (1..3999)
+ * @return Roman numeral representation
+ *
+ * Greedy: repeatedly subtract the largest symbol value that fits,
+ * including subtractive pairs (IV, IX, XL, ...).
+ */
 class Solution {
 public:
     string intToRoman(int num) {
